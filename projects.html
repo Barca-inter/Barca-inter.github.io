@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jiawei Guo</title>
+    <link rel="stylesheet" href="styles-p6.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+          rel="stylesheet">
+</head>
+
+<body>
+<nav aria-label="menu" class='top-nav'>
+    <ul aria-label="menus">
+        <li aria-label="Homepage"><a href="/" tabindex=0>HomePage</a></li>
+        <li aria-label="Projects"><a href="/projects" tabindex=0>Projects</a></li>
+        <li aria-label="My-resume"><a href="https://drive.google.com/file/d/1c3UnZYlbcmhfWYMEI95WVT3B_OssO-oW/view?usp=sharing" target="_blank" tabindex=0>Resume</a></li>
+        <li aria-label="My-bio"><a href="/bio" tabindex=0>Bio</a></li>
+    </ul>
+</nav>
+
+<main aria-label="main page">
+
+    <div aria-label="project-intro" class="project-info">
+        <h1 class="PJ">
+            Projects
+        </h1>
+        <ul aria-label="project-list">
+            <li aria-label="project1">Project on Facial Expression and Race Recognition</li>
+                <div aria-label="project1-detail">
+                    Trained a facial recognition system from scratch which can recognize the emotion and races by analyzing
+                    images/videos.<br>
+                    Extracted race and face features from training set and trained data according to two strategy, one versus one and one
+                    versus all, using four different classifiers which are Support Vector Machine, Training Tree, Logistic Regression and
+                    MLP classifier in Python.<br>
+                    Designed real-time recognition by extracting features from camera with FPS over 10, testing the data in the trained
+                    model and giving a recognition of six basic emotional expressions and four human races with accuracy of 80%.<br>
+                </div>
+            <li aria-label="project2">Project on Iris Recognition System</li>
+                <div aria-label="project2-detail">
+                    Designed an iris recognition system in MATLAB using datasets collected by LG2200 as probes and LG4000 as
+                    galleries, each of which contains 220 subjects' left and right eye images.<br>
+                    Handled with invalid data and optimized the model and parameters given in an open source iris recognition software.<br>
+                    Evaluated the final iris recognition system and get an equal error rate of 8% in ROC and a Rank One Recognition Rate
+                    of 90.4% in CMC.<br>
+                </div>
+            <li aria-label="project3">Project on Computer Networking's Different Layers</li>
+                <div aria-label="project3-detail">
+                    Designed a reliable streaming transport protocol on top of UDP using BSD socket class in Python. This protocol can
+                    handle with chunking of large packets, packets reordering, packet loss rate of 0.2 and bit corruption rate of 0.2. Nagle’s
+                    Algorithm is implemented to minimize the total number of bytes transmitted and make the protocol much more
+                    efficient.<br>
+                    Built a simple web client and a web server using BSD socket interface in Python and test them in Linux environment.
+                    The web client can deal with redirection. The web server can support multiple connections at one time.<br>
+                    Implemented the Link-State and Distance-Vector algorithms in a routing simulator using Python. It took less than 10
+                    seconds to run a 100-node event with LS algorithm which required 200,000 messages.<br>
+                </div>
+            <li aria-label="project4">Project on Embedded System Design</li>
+                <div aria-label="project4-detail">
+                    Assisted the teacher to do some research on Embedded System Design.<br>
+                    Worked on the design of HDMI controller, HDMI AXI-lite interface and AXI-full interface.<br>
+                    Conducted innovative experiments to design the program of dodging marbles based on FPGA.<br>
+                </div>
+        </ul>
+    </div>
+
+
+</main>
+
+</body>
+
+</html>

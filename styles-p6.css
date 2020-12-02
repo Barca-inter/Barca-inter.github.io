@@ -1,0 +1,95 @@
+body {
+
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    margin: 0;
+    font-family: Arial,sans-serif;;
+}
+
+main{
+    margin-left:5%;
+    margin-top: 100px;
+}
+
+a:link{
+    color:#fffc;
+}
+
+nav.top-nav {
+    background: linear-gradient(90deg,#cd122d 0,#154284);
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    padding-left: 2em;
+}
+
+nav.top-nav ul{
+    list-style:none;
+    padding: 0;
+}
+
+nav.top-nav li{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fffc;
+    margin: 5px;
+    display: inline-block;
+    padding: 2px;
+    user-select: none;
+}
+
+nav.top-nav a:hover{
+    text-decoration: underline;
+}
+
+nav.top-nav a:active{
+    color:#fdc52c;
+}
+
+.self-pic {
+    float:left;
+    width:150px;
+}
+
+.self-pic img {
+    margin-top: -5%;
+    border-radius: 50%;
+    width:100%;
+}
+
+.contact a{
+    color:gray;
+}
+
+.contact a:active{
+    color:#cd122d;
+}
+
+.project-intro{
+    margin-top:80px;
+}
+
+.project-intro li{
+    font-size:24px;
+}
+
+.project-intro a{
+    color:#154284;
+}
+
+/* projects.html */
+.project-info{
+    margin-right:50%;
+    line-height:200%;
+}
+
+.project-info li{
+    font-size:24px;
+}
+
+/* bio*/
+
+.bio-sing, .bio-travel1,.bio-travel2{
+        width:250px;
+}
